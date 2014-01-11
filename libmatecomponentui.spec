@@ -40,8 +40,6 @@ BuildRequires:	xz
 BuildConflicts:	gdk-pixbuf-devel < 0.12
 Requires:	glib2 >= 1:2.6.0
 Requires:	gtk+2 >= 2:2.6.0
-Requires:	libmatecomponent
-Requires:	mate-conf
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
